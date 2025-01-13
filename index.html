@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Robin Sardja Portfolio</title>
+
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div id="eyecatcher">
+            <a href="https://avatars.githubusercontent.com/u/114771453" title="My profile picture" target="_blank">
+                <img src="https://avatars.githubusercontent.com/u/114771453" alt="My profile picture" id="pfp">
+            </a>
+
+            <h1 id="name">Robin Sardja</h1>
+            
+            <div id="namegifs">
+                <img src="https://raw.githubusercontent.com/the404devs/dance/refs/heads/main/img/r.gif" alt="R" class="lettergif">
+                <img src="https://raw.githubusercontent.com/the404devs/dance/refs/heads/main/img/o.gif" alt="o" class="lettergif">
+                <img src="https://raw.githubusercontent.com/the404devs/dance/refs/heads/main/img/b.gif" alt="b" class="lettergif">
+                <img src="https://raw.githubusercontent.com/the404devs/dance/refs/heads/main/img/i.gif" alt="i" class="lettergif">
+                <img src="https://raw.githubusercontent.com/the404devs/dance/refs/heads/main/img/n.gif" alt="n" class="lettergif">
+
+                <br>
+
+                <img src="https://raw.githubusercontent.com/the404devs/dance/refs/heads/main/img/s.gif" alt="S" class="lettergif">
+                <img src="https://raw.githubusercontent.com/the404devs/dance/refs/heads/main/img/a.gif" alt="a" class="lettergif">
+                <img src="https://raw.githubusercontent.com/the404devs/dance/refs/heads/main/img/r.gif" alt="r" class="lettergif">
+                <img src="https://raw.githubusercontent.com/the404devs/dance/refs/heads/main/img/d.gif" alt="d" class="lettergif">
+                <img src="https://raw.githubusercontent.com/the404devs/dance/refs/heads/main/img/j.gif" alt="j" class="lettergif">
+                <img src="https://raw.githubusercontent.com/the404devs/dance/refs/heads/main/img/a.gif" alt="a" class="lettergif">
+            </div>
+        </div>
+
+        <p id="bio">Hello! I'm Robin, a CS fresh grad from the University of South Florida! I'm interested in Mobile App Dev, Web Dev, and AI! Let's connect!</p>
+
+        <div id="connections">
+            <p>
+                <a href="https://www.linkedin.com/in/robinsardja" title="LinkedIn" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/RobinSardja" title="GitHub" target="_blank">GitHub</a> | 
+                <a href="https://devpost.com/robinsardja" title="Devpost" target="_blank">Devpost</a> | 
+                <a href="https://www.credly.com/users/robin-sardja" title="Credly" target="_blank">Credly</a> | 
+                <a href="https://g.dev/robinsardja" title="Google for Developers" target="_blank">Google for Developers</a>
+            </p>
+        </div>
+
+        <div id="resume">
+            <h1>Education</h1>
+            <hr>
+
+            <p>
+                <b>B.S. in Computer Science</b> | University of South Florida | <b>Summa Cum Laude</b> | GPA: 4.00/4.00<span class="resumedate">Dec 2024</span><br>
+                <b>Highlighted Coursework</b>: Natural Language Processing | Social Media Mining | Compilers | Database Design
+            </p>
+
+            <h1>Project Highlights</h1>
+            <hr>
+
+            <p><b>Persona Emotion Combos</b> | <a href="https://robinsardja.github.io/PersonaEmotionCombos" title="Persona Emotion Combos" target="_blank">robinsardja.github.io/PersonaEmotionCombos</a><span class="resumedate">Dec 2024</span></p>
+            <ul>
+                <li>Observed model accuracy with emotional persona combos. <b>Natural Language Processing final paper</b>.</li>
+                <li>Automated prompting FLAN-T5 XL with college computer science questions from MMLU on Google Colab.</li>
+                <li>Reformatted the questions in the test split to incorporate one-shot learning with questions from the dev split.</li>
+                <li>Created a Hugging Face Dataset for every emotional persona combination and organized them into a DatasetDict.</li>
+            </ul>
+
+            <p><b>DJ Compiler</b> | USF Coursework: Compilers<span class="resumedate">May 2024</span></p>
+            <ul>
+                <li>Built a compiler for a custom Turing-complete object-oriented programming language. <b> Compilers final project</b>.</li>
+                <li>Generated a lexical analyzer with flex and a left-recursive LALR parser based on abstract syntax trees with bison.</li>
+                <li>Defined an enhanced symbol table and a type checker with static semantics to handle inheritance and subtyping.</li>
+                <li>Developed a code generator that converted a high-level Java-based language into RISC-style machine code.</li>
+            </ul>
+
+            <p><b>InstaHelp</b> | <a href="https://robinsardja.github.io/InstaHelp" title="InstaHelp" target="_blank">robinsardja.github.io/InstaHelp</a><span class="resumedate">Feb 2024</span></p>
+            <ul>
+                <li>Voice-activated emergency contact mobile application. <b>2024 Google Solution Challenge Competitor</b>.</li>
+                <li>Pings the user's current GPS coordinates and generates a Google Maps navigation link upon stress detection.</li>
+                <li>Signs in users through Google Cloud Platform with Firebase Authentication and storing user data in Firestore.</li>
+                <li>Used Flutter and Dart to develop a single mobile application project compatible with Android and iOS devices.</li>
+            </ul>
+
+            <p><b>DisasterMapAI</b> | <a href="https://devpost.com/software/disastermapai" title="DisasterMapAI" target="_blank">devpost.com/software/disastermapai</a><span class="resumedate">Oct 2023</span></p>
+            <ul>
+                <li>Natural disaster tracking and preparation website. <b>SASEhack Fall 2023 Honorable Mentions Winner</b>.</li>
+                <li>Gathers the locations of 300+ recorded natural disasters in the United States in 2023 from NASA and FEMA.</li>
+                <li>Aggregates NYT articles and generates a summary with GPT-3.5 Turbo for the latest updates on the disaster.</li>
+                <li>Overlaid natural disaster locations with Google Maps Platform and called the GPT-3.5 Turbo API with Express.</li>
+            </ul>
+
+            <p><b>BullsArchive</b> | <a href="https://devpost.com/software/bullsarchive" title="BullsArchive" target="_blank">devpost.com/software/bullsarchive</a><span class="resumedate">Mar 2023</span></p>
+            <ul>
+                <li>File sharing website for archiving course content. <b> HackaBull 2023 Best Use of MongoDB Atlas Winner</b>.</li>
+                <li>Allows users to upload course content and view or download previously uploaded content on MongoDB Atlas.</li>
+                <li>Web scraped the USF course catalog and compiled a list of 500+ past and present courses with Beautiful Soup.</li>
+                <li>Designed a responsive course catalog search page with tile blocks for each course using React and Tailwind CSS.</li>
+            </ul>
+
+            <p><b> BullyBlock</b> | <a href="https://devpost.com/software/bullyblock" title=" BullyBlock" target="_blank">devpost.com/software/bullyblock</a><span class="resumedate">Oct 2022</span></p>
+            <ul>
+                <li>Google Chrome extension that intercepts inappropriate content. <b>SASEhack Fall 2022 Runner Up Winner</b>.</li>
+                <li>Detects instances of vulgar and explicit content on all websites such as YouTube, Instagram, TikTok and Netflix.</li>
+                <li>Randomly selects then displays an uplifting message in JavaScript whenever the user opens the extension menu.</li>
+                <li>Designed a drop-down menu using HTML and CSS where users can activate the extension and view the message.</li>
+            </ul>
+
+            <h1>Experience</h1>
+            <hr>
+
+            <p><b>Tech Lead</b> | Google Developer Groups, Tampa Bay (USF)<span class="resumedate">Apr 2023 - Dec 2024</span></p>
+            <ul>
+                <li>Hosted <b>DevFest Tampa Bay 2023 & 2024</b> for 250+ USF students and 300+ global tech enthusiasts.</li>
+                <li>Led 3 Flutter workshops for a total of 50+ attendees to build 3 cross platform mobile applications.</li>
+                <li>Presented a Firebase workshop for 16 attendees to enable user login and direct messaging on a web app.</li>
+                <li>Moderated workshops on open-source contributions with Git and front-end web design basics with React.</li>
+            </ul>
+
+            <p><b>Peer Mentor</b> | Society of Asian Scientists and Engineers (USF)<span class="resumedate">Oct 2022 - Apr 2024</span></p>
+            <ul>
+                <li>Provided individual mentoring for assigned students to advance their academics and professional careers.</li>
+                <li>Completed 80+ hours of advising sessions for computer science and computer engineering students.</li>
+                <li>Expanded personal mentee pool from 1 first year and 1 second year to 2 first years and 5 second years.</li>
+                <li>Supported students towards improved time management, exam preparation, and career readiness.</li>
+            </ul>
+
+            <h1>Technical Skills</h1>
+            <hr>
+
+            <p>C++ | Python | Dart | Git | Flutter | Firebase | Google Colab | Google Cloud Platform | PostgreSQL | React | Next.js</p>
+        </div>
+    </body>
+</html>

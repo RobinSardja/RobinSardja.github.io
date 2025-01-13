@@ -1,0 +1,55 @@
+#name {
+    display: none;
+}
+
+#eyecatcher {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#pfp {
+    height: auto;
+    max-width: 25vw;
+}
+
+#bio {
+    text-align: center;
+}
+
+#connections {
+    text-align: center;
+}
+
+#resume {
+    height: auto;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+.resumedate {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    #eyecatcher {
+        flex-direction: column;
+    }
+
+    #name {
+        display: block;
+    }
+
+    #pfp {
+        max-width: 75vw;
+    }
+
+    #namegifs {
+        display: none;
+    }
+
+    #resume {
+        max-width: 100vw;
+    }
+}
