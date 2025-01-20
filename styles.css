@@ -14,6 +14,10 @@
     max-width: 25vw;
 }
 
+#namegif {
+    max-width: 75vw;
+}
+
 #bio {
     text-align: center;
 }
@@ -53,7 +57,7 @@
         max-width: 75vw;
     }
 
-    #namegifs {
+    #namegif {
         display: none;
     }
 
